@@ -6,7 +6,7 @@ function App() {
 
   return (
     <UserContextProvider>
-    <h1>Context APi</h1>
+    <h1>Context APi Project</h1>
     <Login/>
     <Profile/>
     </UserContextProvider>

@@ -13,7 +13,7 @@ const Login = () => {
     }
   return (
     <div>
-        <h2>login</h2>
+        <h2>Login from here </h2>
 
         <input
         value={username}
@@ -21,7 +21,7 @@ const Login = () => {
         type="text" 
         placeholder='username'
         />
-{"  "}
+{"  "}<br/>
         <input
         value={password}
         onChange={(e)=> setPassword(e.target.value)} 
