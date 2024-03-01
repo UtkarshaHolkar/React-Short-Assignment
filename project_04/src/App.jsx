@@ -50,7 +50,7 @@ const copyPasswordToClipboard = useCallback(()=>{
     <>
       
       <div className='w-full max-w-md mx-auto shadow-md rounded-lg px-4 py-3 my-8 text-red-400 bg-gray-700'>
-      <h1 className=' text-white text-center my-3'>Password generator</h1><div className='flex shadow rounded-lg overflow-hidden mb-4'>
+      <h1 className=' text-white text-center my-3'>Password Generator</h1><div className='flex shadow rounded-lg overflow-hidden mb-4'>
          <input 
          type='text'
          value={password}
@@ -93,7 +93,7 @@ const copyPasswordToClipboard = useCallback(()=>{
               setCharacterallowed((prev)=>!prev);
             }}
           />
-          <label htmlFor='characterInput'>Characters</label>
+          <label htmlFor='characterInput'> Characters </label>
         </div>
       </div>
       </div>

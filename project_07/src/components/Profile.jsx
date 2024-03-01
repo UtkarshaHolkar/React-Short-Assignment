@@ -7,7 +7,11 @@ const Profile = () => {
 
   if (!user) return <div>Please login first </div>
 
-  return <div>Hey ! welcome {user.username} to this page</div>
+  return (
+  <>
+  <div>Hey ! welcome {user.username} to this page</div>
+  </>
+  )
   
 }
 
